@@ -1,0 +1,53 @@
+@media (max-width: 767px) {
+	.button_complexity {
+		width: 25vw;
+		height: 8vh;
+	}
+
+	.button_complexity:active {
+		width: 23vw;
+		height: 7vh;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+	.button_complexity {
+		width: 18vw;
+		height: 8vh;
+	}
+
+	.button_complexity:active {
+		width: 17vw;
+		height: 7vh;
+	}
+}
+
+@media (min-width: 1200px) {
+	.button_complexity {
+		width: 18vw;
+		height: 8vh;
+	}
+
+	.button_complexity:active {
+		width: 17vw;
+		height: 7vh;
+	}
+}
+
+.button_complexity {
+	background-color: Transparent;
+	background-repeat: no-repeat;
+	border: solid 5px #FFC618;
+	border-radius: 25px;
+	cursor: pointer;
+	outline: none;
+	font-size: 2rem;
+	color: #FFC618;
+	font-family: 'Joan', serif;
+	margin: auto;
+}
+
+.button_complexity:hover {
+	background-color: #FFC618;
+	color: #0000cc;
+}

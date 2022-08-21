@@ -1,0 +1,72 @@
+@media (max-width: 767px) {
+	.buttonKeyboard {
+		width: 7.2vw;
+		height: 5vh;
+		border-radius: 8px;
+		border: solid 3px #FFC618;
+		font-size: 2rem;
+	}
+
+	.buttonKeyboard:hover {
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+	.buttonKeyboard {
+		width: 7vw;
+		height: 7vh;
+		border-radius: 15px;
+		border: solid 4px #FFC618;
+		font-size: 3rem;
+	}
+
+	.buttonKeyboard:hover {
+		font-size: 3.5rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.buttonKeyboard {
+		width: 4vw;
+		height: 7.2vh;
+		border-radius: 15px;
+		border: solid 4px #FFC618;
+		font-size: 3rem;
+	}
+
+	.buttonKeyboard:hover {
+		font-size: 3.5rem;
+	}
+}
+
+.buttonKeyboard {
+	background-color: #0000cc;
+	margin: 2px;
+	cursor: pointer;
+	color: #FFC618;
+}
+
+.buttonKeyboard:hover {
+	background-color: #0000cc;
+	border: solid 2.5px #FFC618;
+	color: #FFC618;
+}
+
+.buttonKeyboard:active {
+	background-color: #5a5aff;
+	border: solid 4px #FFC618;
+	color: #FFC618;
+}
+
+.buttonKeyboardTrue {
+	background-color: #FFC618;
+	border: solid 2px #0000cc;
+	color: #0000cc;
+}
+
+.buttonKeyboardFalse {
+	background-color: #C0C0C0;
+	border: solid 4px #C0C0C0;
+	color: #808080;
+}

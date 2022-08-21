@@ -1,0 +1,48 @@
+@media (max-width: 767px) {
+	.buttonDelete {
+		width: 28.8vw;
+		height: 5vh;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+	.buttonDelete {
+		width: 28vw;
+		height: 6vh;
+		font-size: 3rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.buttonDelete {
+		width: 16vw;
+		height: 7.2vh;
+		font-size: 3rem;
+	}
+}
+
+.buttonDelete {
+	background-color: #FFC618;
+	border: solid 4px #0000cc;
+	border-radius: 15px;
+	cursor: pointer;
+	color: #0000cc;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDelete:hover {
+	padding: 10px;
+	background-color: #FF0066;
+	border: solid 1px #0000cc;
+	color: #FFC618;
+}
+
+.buttonDelete:active {
+	padding: 10px;
+	background-color: #ff5e9f;
+	border: solid 1px #0000cc;
+	color: #FFC618;
+}

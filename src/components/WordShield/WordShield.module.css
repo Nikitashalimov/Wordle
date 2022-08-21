@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+	.inputLetter {
+		width: 12vw;
+		height: 6.6vh;
+		font-size: 3rem;
+		border-radius: 10px;
+	}
+}
+
+@media (min-width:768px) and (max-width:1199px) {
+	.inputLetter {
+		width: 8vw;
+		height: 8vh;
+		font-size: 5rem;
+		border-radius: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.inputLetter {
+		width: 4.5vw;
+		height: 7.5vh;
+		font-size: 5rem;
+		border-radius: 15px;
+	}
+}
+
+.inputLetter {
+	box-sizing: border-box;
+	background-color: #0000cc;
+	border: solid 4px #FFC618;
+	margin: 2px;
+	color: #FFC618;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inputTrue {
+	background-color: #FFC618;
+	border: solid 4px #FFC618;
+	color: #0000cc;
+}
+
+.inputFalse {
+	background-color: #C0C0C0;
+	border: solid 4px #C0C0C0;
+	color: #808080;
+}
+
+.inputExist {
+	background-color: #ffdaf4;
+	border: solid 4px #ffdaf4;
+	color: #0000cc;
+}
+
+.inputString {
+	display: flex;
+}
