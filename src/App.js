@@ -8,10 +8,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact
+        <Route path="https://github.com/Nikitashalimov/Wordle/" exact
           element={<StartPage />}
         />
-        <Route path="/game"
+        <Route path="https://github.com/Nikitashalimov/Wordle/game"
           element={<GamePage />}
         />
       </Routes>

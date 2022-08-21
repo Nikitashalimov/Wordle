@@ -63,7 +63,7 @@ const StartPage = () => {
 		dispatch(addSecretWord(secretWord));
 		dispatch(addComplexity(secretWord.length));
 
-		navigate('/game');
+		navigate('https://github.com/Nikitashalimov/Wordle/game');
 	}
 
 	return (

@@ -70,7 +70,7 @@ const ModalWin = ({ win, complexity, noWin, setButtonsKeyboard }) => {
 				<div className={s.buttonBox}>
 					<button
 						className={s.button}
-						onClick={() => navigate('/')}
+						onClick={() => navigate('https://github.com/Nikitashalimov/Wordle/')}
 					>
 						Поменять сложность
 					</button>
