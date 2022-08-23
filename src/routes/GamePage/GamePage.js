@@ -204,7 +204,7 @@ const GamePage = () => {
 
 			<button
 				className={s.button_menu}
-				onClick={() => navigate('https://github.com/Nikitashalimov/Wordle/')}
+				onClick={() => navigate('/')}
 			>
 				Menu
 			</button>
