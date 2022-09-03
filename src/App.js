@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <HashRouter basename = "/">
+    <HashRouter basename="/">
 
       <Routes>
         <Route path="/" exact element={<StartPage />} />

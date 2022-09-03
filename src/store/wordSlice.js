@@ -4,7 +4,10 @@ export const fetchWords = createAsyncThunk(
 	'words/fetchWords',
 	async function (_, { rejectWithValue }) {
 		try {
-			const response = await fetch('https://my-json-server.typicode.com/Nikitashalimov/JSON/db');
+			// Маленькая база слов
+			// const response = await fetch('https://my-json-server.typicode.com/Nikitashalimov/JSON/db');
+			// Большая база слов
+			const response = await fetch('https://api.npoint.io/f1bf9c8d90b4956c8fcc');
 
 			if (!response.ok) {
 				throw new Error('Server Error!');
